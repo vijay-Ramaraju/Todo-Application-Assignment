@@ -1,0 +1,21 @@
+###
+GET http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+GET http://localhost:3000/todos/2/
+
+###
+
+GET http://localhost:3000/agenda/?date=2021-12-12
+
+###
+POST http://localhost:/3000/todos/
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "due_date": "2021-02-22"
+}
